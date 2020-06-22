@@ -2980,6 +2980,8 @@ class FITSOpticalElement(OpticalElement):
             else:  # pupil or any other types of plane
                 self.pixelscale *= u.meter / u.pixel
 
+            print('test 1')
+
             # ---- transformation: shift ----
             # if a shift is specified and we're NOT a null (scalar) optic, then do the shift
             # This has to happen after the pixelscale has been determined, for the shift_x/shift_y path.
