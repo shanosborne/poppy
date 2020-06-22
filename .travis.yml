@@ -48,7 +48,7 @@ after_success:
 
 notifications:
   email:
-    - mperrin@stsci.edu
+  - mperrin@stsci.edu
 
 deploy:
   provider: pypi
